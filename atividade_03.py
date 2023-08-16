@@ -1,0 +1,12 @@
+print('----CADASTRO DE PRODUTO----')
+nome = input('Digite o nome do produto: ')
+codigo = int(input('Digite o código: '))
+quantidade = int(input('Digite a quantidade: '))
+preco = float(input('Informe o preço do produto: '))
+total = preco * quantidade
+print("------------CADASTRADO COM SUCESSO!------------------")
+print(('Produto: '), nome)
+print(('Código: '), codigo)
+print(('Quantidade: '), quantidade)
+print('Preço: ', preco, 'R$')
+print('O valor total é: ', total)
